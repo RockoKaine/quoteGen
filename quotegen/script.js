@@ -45,6 +45,7 @@ async function getQuotes(){
         
     } catch (e) {
         // catch error here
+        quoteBox.textContent = "Wow! ** Owen Wilson voice** you broke it, try again."
         
     }
 }
